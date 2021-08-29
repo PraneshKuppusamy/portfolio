@@ -1,2 +1,2 @@
 # portfolio
-Pranesh Kuppusamy Profolio
+Pranesh Kuppusamy Protfolio
