@@ -492,10 +492,12 @@ section {
 }
 
 .resume .resume-item ul {
+	font-size: 14px;
   padding-left: 20px;
 }
 
 .resume .resume-item ul li {
+	
   padding-bottom: 10px;
 }
 
@@ -519,6 +521,7 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
+  font-size: 13px;
   margin-bottom: 30px;
 }
 
@@ -570,7 +573,7 @@ section {
   bottom: 0;
   transition: all ease-in-out 0.3s;
   z-index: 2;
-  opacity: 0;
+  opacity: 0.5;
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
@@ -607,13 +610,23 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 1;
-}
+  opacity: 0;
+ }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
 }
+
+.portfolio .portfolio-wrap ul {
+  padding-left: 10px;
+}
+
+.portfolio .portfolio-wrap ul li {
+	
+  padding-bottom: 10px;
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
