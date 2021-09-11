@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile h1 {
-  font-size: 24px;
+  font-size: 22px;
   margin: 0;
   padding: 0;
   font-weight: 600;
@@ -216,6 +216,12 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
 }
+#hero1 {
+  width: 100%;
+  height: 10vh;
+  background: url("../img/hero-bg.jpg") top center;
+  background-size: cover;
+}
 
 #hero:before {
   content: "";
@@ -233,7 +239,11 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2;
   min-width: 300px;
 }
-
+#hero .hero-container1 {
+  position: relative;
+  z-index: 2;
+  min-width: 50px;
+}
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
@@ -482,10 +492,12 @@ section {
 }
 
 .resume .resume-item ul {
+	font-size: 14px;
   padding-left: 20px;
 }
 
 .resume .resume-item ul li {
+	
   padding-bottom: 10px;
 }
 
@@ -509,6 +521,7 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
+  font-size: 13px;
   margin-bottom: 30px;
 }
 
@@ -560,7 +573,7 @@ section {
   bottom: 0;
   transition: all ease-in-out 0.3s;
   z-index: 2;
-  opacity: 0;
+  opacity: 0.5;
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
@@ -597,13 +610,23 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 1;
-}
+  opacity: 0;
+ }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
 }
+
+.portfolio .portfolio-wrap ul {
+  padding-left: 10px;
+}
+
+.portfolio .portfolio-wrap ul li {
+	
+  padding-bottom: 10px;
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -1079,3 +1102,14 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+
+/* .row { */
+  /* display: grid; */
+  /* grid-auto-flow: column; */
+  /* gap: 5%; */
+/* } */
+
+/* .col { */
+  /* border: 0; */
+/* } */
